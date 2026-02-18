@@ -1,33 +1,46 @@
-## 🏥 K-Medical: 의료기기 정보 및 병원 위치 안내 시스템
-
-> 환자 맞춤형 의료기기 및 병원 정보를 제공하는 지능형 웹 애플리케이션  
-> 📍 질병 검색 → 의료기기 조회 → 병원 위치 안내까지 한 번에!
+# K-MEDICAL  
+### Data-Driven Healthcare Information Platform  
 
 ---
 
-### 🧩 프로젝트 개요
-- 사용자가 **질병명을 입력**하면 관련된 의료기기와 이를 **보유한 병원을 검색**할 수 있습니다.
-- 병원 위치는 **카카오맵 API**를 활용해 지도 상에 시각화되며, **거리 기반 정렬**도 지원합니다.
-- 의료기기·병원·질병 데이터는 **공공데이터 포털**에서 수집 후 **MySQL에 통합 저장**하였고,  
-  **Flask 기반 웹 서버**에서 실시간으로 조회됩니다.
+## Project Overview
+
+K-MEDICAL ist eine datengetriebene Full-Stack-Webanwendung zur Aggregation, Visualisierung und Interaktion mit medizinischen Infrastrukturdaten in Südkorea.
+
+Die Plattform integriert:
+
+- Universitätskliniken-Metadaten  
+- Geospatiale Visualisierung (Kakao Maps SDK)  
+- REST-basierte medizinische Gerätesuche  
+- Krebsinzidenz-Datenanalyse (Chart.js)  
+- Authentifiziertes Review-System  
+- Versicherungs- und Reservierungsinformationen  
+
+Das Projekt demonstriert Full-Stack-Integration mit Flask, REST APIs, asynchroner Datenverarbeitung und modularer UI-Architektur.
 
 ---
 
-### 🚀 향후 발전 방향
-- **119 응급 이송 시스템과의 연계**를 통해 응급환자의 빠른 병원 도착을 지원할 계획입니다.
-- 서비스가 확대되면:
-  - **치료비 정보 제공** (의료법 허용 범위 내)
-  - 병원 및 **보험사와의 제휴**를 통한 **맞춤형 보험 컨설팅 서비스** 제공
-  - 추가적인 **부가가치 창출 및 수익화** 전략 실행 예정
+## Tech Stack
+
+### Frontend
+- HTML5 (Jinja2 Templating)
+- CSS3
+- Bootstrap 5
+- JavaScript (ES6+)
+- jQuery (AJAX)
+- Chart.js
+- Kakao Maps SDK
+- AOS (Scroll Animation)
+
+### Backend
+- Python
+- Flask
+- Jinja2
+- RESTful API Design
+- Session-basierte Authentifizierung
+- MVC-orientierte Struktur
 
 ---
 
-### 🔧 주요 기능
-- ✅ Flask 기반 **RESTful API 서버**
-- ✅ 질병명 기반 **의료기기 및 병원 실시간 검색**
-- ✅ **카카오맵 API**를 활용한 병원 위치 시각화
-- ✅ 거리순 정렬 및 사용자 중심 정보 제공
+## Project Structure
 
----
-
-🔗 [프로젝트 GitHub 링크 바로가기](https://github.com/Jinyechan/k-medical)
